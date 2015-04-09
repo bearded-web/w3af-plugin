@@ -11,7 +11,7 @@ $minimal_apt_get_install git
 $minimal_apt_get_install libyaml-dev python-lxml
 
 cd /home/app/
-git clone -b develop --depth 1 https://github.com/andresriancho/w3af.git w3af
+git clone -b master --depth 1 https://github.com/andresriancho/w3af.git w3af
 cd /home/app/w3af
 
 set +e
